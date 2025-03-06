@@ -15,6 +15,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Trading Compound Calculator",
   description: "Make it all back in 100 trades",
+  openGraph: {
+    title: "Trading Compound Calculator",
+    description: "Make it all back in 100 trades",
+    type: "website",
+    locale: "en_US",
+    url: "https://trading-compound-calculator.vercel.app",
+    images: [
+      {
+        url: "https://uponly-viz.vercel.app/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Trading Compound Calculator",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
