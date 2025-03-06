@@ -292,10 +292,10 @@ const TradingCompoundCalculator = () => {
                   onClick={handleShare}
                 >
                   <Share2 className="h-4 w-4" />
-                  Share
+                  Share your numbers
                 </Button>
-                <CardDescription className="text-emerald-100 hidden md:block">
-                  Visualize how your capital compounds across multiple trades
+                <CardDescription className="text-emerald-100 hidden md:block text-small">
+                  Visualize your capital compound across n trades
                 </CardDescription>
               </div>
             </div>
